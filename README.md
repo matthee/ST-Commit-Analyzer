@@ -9,11 +9,15 @@ git repository for more objective grading.
 * Install ruby 2.x (Development version: ruby 2.3.1p112 (2016-04-26 revision 54768) [x86_64-darwin16])
 * Install bundler
 
-    $ gem install bundler
+```
+$ gem install bundler
+```
 
 * Install dependencies
 
-    $ bundle install
+```
+$ bundle install
+```
 
 ## Analyze Commits
 
