@@ -43,7 +43,7 @@ module Git
           end
         end
 
-        BlameResult.new(lines, commits.values, authors.values)
+        Result.new(lines, commits.values, authors.values)
       end
 
       private
