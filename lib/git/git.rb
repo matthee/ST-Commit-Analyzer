@@ -4,10 +4,6 @@ require_relative "author"
 module Git
 
   class Git
-    def initialize
-
-    end
-
     def blame(path)
       result = git_cmd("blame", %w(-p), path)
 

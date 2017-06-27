@@ -1,6 +1,7 @@
 require "set"
 
 module BlameAnalyzer
+
   class Author
     attr_accessor :name, :abbreviation, :solitary_loc, :paired_loc, :owned_loc, :created_commits, :participated_commits
 
@@ -23,4 +24,5 @@ module BlameAnalyzer
       @name || "Unknown name"
     end
   end
+
 end

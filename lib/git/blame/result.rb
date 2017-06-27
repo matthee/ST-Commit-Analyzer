@@ -1,4 +1,5 @@
 module Git
+
   class BlameResult
     attr_reader :lines, :commits, :authors
 
@@ -8,4 +9,5 @@ module Git
       @authors = authors
     end
   end
+
 end

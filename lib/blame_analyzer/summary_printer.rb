@@ -1,4 +1,5 @@
 module BlameAnalyzer
+
   class SummaryPrinter
     def initialize(analyzer)
       @analyzer = analyzer
@@ -45,4 +46,5 @@ module BlameAnalyzer
       summary.join("\n")
     end
   end
+
 end

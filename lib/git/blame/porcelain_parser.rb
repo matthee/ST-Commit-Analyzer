@@ -60,7 +60,6 @@ module Git
       def parse_header_line(line)
         line.split(/\s/, 2)
       end
-
     end
 
   end

@@ -1,5 +1,6 @@
 module Git
   module Blame
+
     class Line
       attr_accessor :commit, :original_line_number, :line_number, :contents
 
@@ -12,5 +13,6 @@ module Git
         @commit.lines << self
       end
     end
+
   end
 end
